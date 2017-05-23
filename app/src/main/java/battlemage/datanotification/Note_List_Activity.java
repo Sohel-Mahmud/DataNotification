@@ -3,6 +3,7 @@ package battlemage.datanotification;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 
 public class Note_List_Activity extends AppCompatActivity {
 
@@ -13,9 +14,12 @@ public class Note_List_Activity extends AppCompatActivity {
 
         FloatingActionButton fab = (FloatingActionButton)findViewById(R.id.fab);
         
-        ///test comment
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
 
-        ///test comment lol
+            }
+        });
 
 
     }
