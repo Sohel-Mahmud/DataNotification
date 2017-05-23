@@ -12,6 +12,8 @@ public class Note_List_Activity extends AppCompatActivity {
         setContentView(R.layout.activity_note__list_);
 
         FloatingActionButton fab = (FloatingActionButton)findViewById(R.id.fab);
+        
+        ///test comment
 
 
     }
